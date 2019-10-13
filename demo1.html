@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<meta charset="UTF-8">
+    <title>CALLE BA</title> 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   	 <link href="css/demo1.css" rel="stylesheet">
+</head> 
+
+<body>
+	<audio src="sivosqueres.mp3" autoplay></audio>
+	<h2 id="score"></h2> 
+	<canvas id="canvas1" style="border: 1px solid black;"></canvas>
+
+	<div class="container"> 
+	  <div class="modal fade" id="myModalWin" role="dialog">
+	    <div class="modal-dialog">
+
+	      <div class="modal-content">
+
+	        <div class="modal-body">
+	        	<div class="container">
+					  <img src="images/cartel-ganaste-calle.png">
+					  <a href="demo.html"><button class="btn">SEGUIR</button></a>
+				</div>
+	        </div>
+	      </div>
+	      
+	    </div>
+	  </div>
+	</div>
+
+	<div class="container"> 
+
+	  <div class="modal fade" id="myModalLose" role="dialog">
+	    <div class="modal-dialog">
+
+	      <div class="modal-content">
+	        <div class="modal-body">
+	        	<div class="container">
+					  <img src="images/cartel-perdiste-calle.png">
+					  <button onClick="window.location.reload()" class="btn">VOLVER</button>
+				</div>
+	        </div>
+	      </div>
+	      
+	    </div>
+	  </div>
+	</div>
+
+   <script src="demo1.js"></script>
+   <script>
+
+   </script>
+</body> 
+</html> 
+  

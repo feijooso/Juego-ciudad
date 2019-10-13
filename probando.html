@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="probando.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="container">
+	  <h2>Modal Example</h2>
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="myModal" role="dialog">
+	    <div class="modal-dialog">
+	    
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-body">
+	          <!-- <p>Sobreviviste a la ciudad! Bajamos al subte?</p> -->
+	          <img src="images/cartel-perdiste-calle.png">
+	          <a href="demo.html"><button align='left'>SEGUIR</button></a>
+	        </div>
+<!-- 	        <div class="modal-footer">
+	        	<a href="demo.html"><button>SEGUIR</button></a>
+	        </div> -->
+	      </div>
+	      
+	    </div>
+	  </div>
+	</div>
+
+	<script>
+		function modal(){
+			$('#myModal').modal('show');
+		}
+		var interval = setInterval(modal, 2000);
+	</script>
+
+</body>
+</html>

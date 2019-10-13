@@ -1,0 +1,30 @@
+.modal-content{
+	position: relative;
+	width: 100%;
+	background-color: #FDD306;
+	font-family: 'GothamRounded-Bold';
+}
+.modal-content .img{
+	width: 100%;
+	height: auto;
+}
+
+.modal-content .a .button{
+	position: absolute;
+	top: 85%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+ 	background-color: #555;
+  	color: white;
+ 	font-size: 16px;
+  	padding: 12px 24px;
+  	border: none;
+ 	cursor: pointer;
+ 	border-radius: 5px;
+ 	text-align: center;
+}
+
+.container .a .btn:hover {
+  background-color: black;
+}
